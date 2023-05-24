@@ -1,0 +1,58 @@
+object FormCard: TFormCard
+  Left = 0
+  Top = 0
+  BorderStyle = None
+  Caption = 'Form3'
+  ClientHeight = 610
+  ClientWidth = 695
+  Fill.Kind = Solid
+  Position = ScreenCenter
+  FormStyle = StayOnTop
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Label2: TLabel
+    StyledSettings = [Family]
+    Position.X = 39.000000000000000000
+    Position.Y = 24.000000000000000000
+    Size.Width = 617.000000000000000000
+    Size.Height = 289.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 28.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.HorzAlign = Center
+    Text = 'La tua Tuttigiorni Card ora ti verr'#224' stampata!'
+    TabOrder = 0
+    object ImageViewer1: TImageViewer
+      Position.X = 80.000000000000000000
+      Position.Y = 311.000000000000000000
+      Size.Width = 457.000000000000000000
+      Size.Height = 129.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 4
+      TabStop = False
+      Viewport.Width = 453.000000000000000000
+      Viewport.Height = 125.000000000000000000
+    end
+  end
+  object Button44: TButton
+    StyledSettings = [Family, FontColor]
+    Position.X = 266.000000000000000000
+    Position.Y = 472.000000000000000000
+    Size.Width = 163.000000000000000000
+    Size.Height = 130.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'OK'
+    TextSettings.Font.Size = 48.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    OnClick = Button44Click
+  end
+  object Timer1: TTimer
+    Interval = 60000
+    OnTimer = Timer1Timer
+    Left = 592
+    Top = 376
+  end
+end

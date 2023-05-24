@@ -1,0 +1,240 @@
+object Form4: TForm4
+  Left = 0
+  Top = 0
+  ActiveControl = Edit1
+  BorderStyle = None
+  Caption = 'Form4'
+  ClientHeight = 534
+  ClientWidth = 691
+  Fill.Kind = Solid
+  Position = ScreenCenter
+  FormStyle = StayOnTop
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Label2: TLabel
+    StyledSettings = [Family]
+    Position.X = 37.000000000000000000
+    Position.Y = 73.000000000000000000
+    Size.Width = 617.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 28.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.HorzAlign = Center
+    Text = 'Inserisci il codice PIN'
+    TabOrder = 1
+  end
+  object Label1: TLabel
+    StyledSettings = [Family]
+    Position.X = 37.000000000000000000
+    Position.Y = 16.000000000000000000
+    Size.Width = 617.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 28.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.FontColor = claCrimson
+    TextSettings.HorzAlign = Center
+    Text = '** INFORMAZIONE **'
+    TabOrder = 2
+  end
+  object Label3: TLabel
+    StyledSettings = [Family]
+    Position.X = 37.000000000000000000
+    Position.Y = 127.000000000000000000
+    Size.Width = 617.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 28.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.HorzAlign = Center
+    Text = 'che hai ricevuto via @@SMS@@'
+    TabOrder = 0
+  end
+  object Edit1: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 3
+    TextSettings.Font.Size = 28.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.HorzAlign = Center
+    Position.X = 237.000000000000000000
+    Position.Y = 186.000000000000000000
+    Size.Width = 217.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    StyledSettings = [Family, FontColor]
+  end
+  object Button3: TButton
+    StyledSettings = [Family, Size, FontColor]
+    Position.X = 350.000000000000000000
+    Position.Y = 420.000000000000000000
+    Size.Width = 57.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 38
+    Text = '3'
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    OnClick = Button3Click
+  end
+  object Button2: TButton
+    StyledSettings = [Family, Size, FontColor]
+    Position.X = 285.000000000000000000
+    Position.Y = 420.000000000000000000
+    Size.Width = 57.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 41
+    Text = '2'
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    OnClick = Button3Click
+  end
+  object Button1: TButton
+    StyledSettings = [Family, Size, FontColor]
+    Position.X = 220.000000000000000000
+    Position.Y = 420.000000000000000000
+    Size.Width = 57.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 42
+    Text = '1'
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    OnClick = Button3Click
+  end
+  object Button6: TButton
+    StyledSettings = [Family, Size, FontColor]
+    Position.X = 350.000000000000000000
+    Position.Y = 363.000000000000000000
+    Size.Width = 57.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 29
+    Text = '6'
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    OnClick = Button3Click
+  end
+  object Button5: TButton
+    StyledSettings = [Family, Size, FontColor]
+    Position.X = 285.000000000000000000
+    Position.Y = 363.000000000000000000
+    Size.Width = 57.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 33
+    Text = '5'
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    OnClick = Button3Click
+  end
+  object Button4: TButton
+    StyledSettings = [Family, Size, FontColor]
+    Position.X = 220.000000000000000000
+    Position.Y = 363.000000000000000000
+    Size.Width = 57.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 36
+    Text = '4'
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    OnClick = Button3Click
+  end
+  object Button9: TButton
+    StyledSettings = [Family, Size, FontColor]
+    Position.X = 350.000000000000000000
+    Position.Y = 306.000000000000000000
+    Size.Width = 57.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 18
+    Text = '9'
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    OnClick = Button3Click
+  end
+  object Button8: TButton
+    StyledSettings = [Family, Size, FontColor]
+    Position.X = 285.000000000000000000
+    Position.Y = 306.000000000000000000
+    Size.Width = 57.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 23
+    Text = '8'
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    OnClick = Button3Click
+  end
+  object Button7: TButton
+    StyledSettings = [Family, Size, FontColor]
+    Position.X = 220.000000000000000000
+    Position.Y = 306.000000000000000000
+    Size.Width = 57.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 28
+    Text = '7'
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    OnClick = Button3Click
+  end
+  object Button42: TButton
+    StyledSettings = [Family, Size, FontColor]
+    Position.X = 415.000000000000000000
+    Position.Y = 420.000000000000000000
+    Size.Width = 57.000000000000000000
+    Size.Height = 106.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 25
+    Text = 'INVIO'
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    OnClick = Button42Click
+  end
+  object Button10: TButton
+    StyledSettings = [Family, Size, FontColor]
+    Position.X = 220.000000000000000000
+    Position.Y = 477.000000000000000000
+    Size.Width = 122.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 15
+    Text = '0'
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    OnClick = Button3Click
+  end
+  object Button43: TButton
+    StyledSettings = [Family, Size, FontColor]
+    Position.X = 350.000000000000000000
+    Position.Y = 477.000000000000000000
+    Size.Width = 57.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 14
+    Text = 'CANC'
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    OnClick = Button43Click
+  end
+  object Timer1: TTimer
+    Interval = 120000
+    OnTimer = Timer1Timer
+    Left = 568
+    Top = 320
+  end
+  object Timer2: TTimer
+    Interval = 20000
+    OnTimer = Timer2Timer
+    Left = 560
+    Top = 240
+  end
+  object Button11: TButton
+    StyledSettings = [Family]
+    Position.X = 39.000000000000000000
+    Position.Y = 256.000000000000000000
+    Size.Width = 610.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 46
+    Text = 'Non hai ricevuto il codice? Riprova ad inviarlo.'
+    TextSettings.Font.Size = 14.000000000000000000
+    TextSettings.Font.StyleExt = {04060000000000000004000000}
+    TextSettings.FontColor = claBlue
+    Visible = False
+    OnClick = Button11Click
+  end
+end

@@ -1,0 +1,998 @@
+object Form5: TForm5
+  Left = 0
+  Top = 0
+  Caption = 'Form5'
+  ClientHeight = 1366
+  ClientWidth = 768
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Layout1: TLayout
+    Align = Client
+    Size.Width = 768.000000000000000000
+    Size.Height = 1366.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object TabControl1: TTabControl
+      Align = Client
+      Size.Width = 768.000000000000000000
+      Size.Height = 1366.000000000000000000
+      Size.PlatformDefault = False
+      TabIndex = 0
+      TabOrder = 0
+      TabStop = False
+      TabPosition = None
+      Sizes = (
+        768s
+        1366s
+        768s
+        1366s)
+      object TabItem1: TTabItem
+        CustomIcon = <
+          item
+          end>
+        IsSelected = True
+        Size.Width = 8.000000000000000000
+        Size.Height = 8.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'tabitemcustom'
+        TabOrder = 0
+        TabStop = False
+        Text = 'TabItem1'
+        ExplicitSize.cx = 8.000000000000000000
+        ExplicitSize.cy = 8.000000000000000000
+        object Layout2: TLayout
+          Align = Client
+          Margins.Left = 10.000000000000000000
+          Margins.Top = 10.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Margins.Bottom = 10.000000000000000000
+          Size.Width = 748.000000000000000000
+          Size.Height = 1346.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          object RoundRect1: TRoundRect
+            Align = Top
+            Corners = [TopLeft, BottomRight]
+            Fill.Color = claCoral
+            Margins.Top = 100.000000000000000000
+            Position.Y = 100.000000000000000000
+            Size.Width = 748.000000000000000000
+            Size.Height = 359.000000000000000000
+            Size.PlatformDefault = False
+            Stroke.Color = claDarkblue
+            Stroke.Thickness = 5.000000000000000000
+            object Label6: TLabel
+              Align = Client
+              StyledSettings = [Family]
+              Size.Width = 748.000000000000000000
+              Size.Height = 359.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Size = 26.000000000000000000
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+              TextSettings.FontColor = claFloralwhite
+              TextSettings.HorzAlign = Center
+              Text = 'Registra una nuova card'
+              TabOrder = 0
+            end
+          end
+          object RoundRect2: TRoundRect
+            Align = Top
+            Corners = [TopRight, BottomLeft]
+            Fill.Color = claBeige
+            Margins.Top = 100.000000000000000000
+            Position.Y = 559.000000000000000000
+            Size.Width = 748.000000000000000000
+            Size.Height = 359.000000000000000000
+            Size.PlatformDefault = False
+            Stroke.Color = claDarkblue
+            Stroke.Thickness = 5.000000000000000000
+            object Label1: TLabel
+              Align = Client
+              StyledSettings = [Family]
+              Size.Width = 748.000000000000000000
+              Size.Height = 359.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Size = 26.000000000000000000
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+              TextSettings.HorzAlign = Center
+              Text = 'Ristampa la tua card'
+              TabOrder = 0
+            end
+          end
+        end
+      end
+      object TabItem2: TTabItem
+        CustomIcon = <
+          item
+          end>
+        IsSelected = False
+        Size.Width = 8.000000000000000000
+        Size.Height = 8.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = ''
+        TabOrder = 0
+        Text = 'TabItem2'
+        ExplicitSize.cx = 8.000000000000000000
+        ExplicitSize.cy = 8.000000000000000000
+        object Layout4: TLayout
+          Align = Top
+          Margins.Left = 10.000000000000000000
+          Margins.Top = 10.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Margins.Bottom = 10.000000000000000000
+          Position.X = 10.000000000000000000
+          Position.Y = 10.000000000000000000
+          Size.Width = 748.000000000000000000
+          Size.Height = 1073.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          object Rectangle1: TRectangle
+            Align = Client
+            Fill.Color = claCoral
+            Size.Width = 748.000000000000000000
+            Size.Height = 1073.000000000000000000
+            Size.PlatformDefault = False
+            Stroke.Bitmap.WrapMode = Tile
+            Stroke.Kind = Bitmap
+            XRadius = 15.000000000000000000
+            YRadius = 15.000000000000000000
+            object GridLayout1: TGridLayout
+              Align = Top
+              ItemHeight = 64.000000000000000000
+              ItemWidth = 374.000000000000000000
+              Orientation = Horizontal
+              Size.Width = 748.000000000000000000
+              Size.Height = 65.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 1
+              object Layout6: TLayout
+                Align = Left
+                Size.Width = 374.000000000000000000
+                Size.Height = 64.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 0
+                object Label2: TLabel
+                  Align = Top
+                  StyledSettings = [Family, FontColor]
+                  Margins.Left = 5.000000000000000000
+                  Margins.Top = 5.000000000000000000
+                  Margins.Right = 5.000000000000000000
+                  Margins.Bottom = 5.000000000000000000
+                  Position.X = 5.000000000000000000
+                  Position.Y = 5.000000000000000000
+                  Size.Width = 364.000000000000000000
+                  Size.Height = 17.000000000000000000
+                  Size.PlatformDefault = False
+                  TextSettings.Font.Size = 16.000000000000000000
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                  Text = '* Nome'
+                  TabOrder = 0
+                end
+                object idNome: TEdit
+                  Touch.InteractiveGestures = [LongTap, DoubleTap]
+                  Align = Top
+                  TabOrder = 1
+                  TextSettings.Font.Size = 16.000000000000000000
+                  Position.X = 5.000000000000000000
+                  Position.Y = 27.000000000000000000
+                  Margins.Left = 5.000000000000000000
+                  Margins.Right = 5.000000000000000000
+                  Margins.Bottom = 5.000000000000000000
+                  Size.Width = 364.000000000000000000
+                  Size.Height = 33.000000000000000000
+                  Size.PlatformDefault = False
+                  StyledSettings = [Family, Style, FontColor]
+                  CharCase = ecUpperCase
+                end
+              end
+              object Layout7: TLayout
+                Align = Right
+                Position.X = 374.000000000000000000
+                Size.Width = 374.000000000000000000
+                Size.Height = 64.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 1
+                object Label3: TLabel
+                  Align = Top
+                  StyledSettings = [Family, FontColor]
+                  Margins.Left = 5.000000000000000000
+                  Margins.Top = 5.000000000000000000
+                  Margins.Right = 5.000000000000000000
+                  Margins.Bottom = 5.000000000000000000
+                  Position.X = 5.000000000000000000
+                  Position.Y = 5.000000000000000000
+                  Size.Width = 364.000000000000000000
+                  Size.Height = 17.000000000000000000
+                  Size.PlatformDefault = False
+                  TextSettings.Font.Size = 16.000000000000000000
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                  Text = '* Cognome'
+                  TabOrder = 9
+                end
+                object idCognome: TEdit
+                  Touch.InteractiveGestures = [LongTap, DoubleTap]
+                  Align = Top
+                  TabOrder = 10
+                  TextSettings.Font.Size = 16.000000000000000000
+                  Position.X = 5.000000000000000000
+                  Position.Y = 27.000000000000000000
+                  Margins.Left = 5.000000000000000000
+                  Margins.Right = 5.000000000000000000
+                  Margins.Bottom = 5.000000000000000000
+                  Size.Width = 364.000000000000000000
+                  Size.Height = 33.000000000000000000
+                  Size.PlatformDefault = False
+                  StyledSettings = [Family, Style, FontColor]
+                  CharCase = ecUpperCase
+                end
+              end
+            end
+            object GridLayout2: TGridLayout
+              Align = Top
+              ItemHeight = 64.000000000000000000
+              ItemWidth = 374.000000000000000000
+              Orientation = Horizontal
+              Position.Y = 130.000000000000000000
+              Size.Width = 748.000000000000000000
+              Size.Height = 65.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 0
+              object Layout8: TLayout
+                Align = Left
+                Size.Width = 374.000000000000000000
+                Size.Height = 64.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 0
+                object Label4: TLabel
+                  Align = Top
+                  StyledSettings = [Family, FontColor]
+                  Margins.Left = 5.000000000000000000
+                  Margins.Top = 5.000000000000000000
+                  Margins.Right = 5.000000000000000000
+                  Margins.Bottom = 5.000000000000000000
+                  Position.X = 5.000000000000000000
+                  Position.Y = 5.000000000000000000
+                  Size.Width = 364.000000000000000000
+                  Size.Height = 17.000000000000000000
+                  Size.PlatformDefault = False
+                  TextSettings.Font.Size = 16.000000000000000000
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                  Text = '** Telefono'
+                  TabOrder = 4
+                end
+                object idTel: TEdit
+                  Touch.InteractiveGestures = [LongTap, DoubleTap]
+                  Align = Top
+                  TabOrder = 6
+                  TextSettings.Font.Size = 16.000000000000000000
+                  Position.X = 5.000000000000000000
+                  Position.Y = 27.000000000000000000
+                  Margins.Left = 5.000000000000000000
+                  Margins.Right = 5.000000000000000000
+                  Margins.Bottom = 5.000000000000000000
+                  Size.Width = 364.000000000000000000
+                  Size.Height = 33.000000000000000000
+                  Size.PlatformDefault = False
+                  StyledSettings = [Family, Style, FontColor]
+                end
+              end
+              object Layout9: TLayout
+                Align = Right
+                Position.X = 374.000000000000000000
+                Size.Width = 374.000000000000000000
+                Size.Height = 64.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 1
+                object idCAP: TEdit
+                  Touch.InteractiveGestures = [LongTap, DoubleTap]
+                  Align = Top
+                  TabOrder = 5
+                  MaxLength = 5
+                  TextSettings.Font.Size = 16.000000000000000000
+                  Position.X = 5.000000000000000000
+                  Position.Y = 27.000000000000000000
+                  Margins.Left = 5.000000000000000000
+                  Margins.Right = 5.000000000000000000
+                  Margins.Bottom = 5.000000000000000000
+                  Size.Width = 364.000000000000000000
+                  Size.Height = 33.000000000000000000
+                  Size.PlatformDefault = False
+                  StyledSettings = [Family, Style, FontColor]
+                end
+                object Label8: TLabel
+                  Align = Top
+                  StyledSettings = [Family, FontColor]
+                  Margins.Left = 5.000000000000000000
+                  Margins.Top = 5.000000000000000000
+                  Margins.Right = 5.000000000000000000
+                  Margins.Bottom = 5.000000000000000000
+                  Position.X = 5.000000000000000000
+                  Position.Y = 5.000000000000000000
+                  Size.Width = 364.000000000000000000
+                  Size.Height = 17.000000000000000000
+                  Size.PlatformDefault = False
+                  TextSettings.Font.Size = 16.000000000000000000
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                  Text = '* CAP'
+                  TabOrder = 3
+                end
+              end
+            end
+            object idEmail: TEdit
+              Touch.InteractiveGestures = [LongTap, DoubleTap]
+              Align = Top
+              TabOrder = 8
+              TextSettings.Font.Size = 16.000000000000000000
+              Position.X = 5.000000000000000000
+              Position.Y = 92.000000000000000000
+              Margins.Left = 5.000000000000000000
+              Margins.Right = 5.000000000000000000
+              Margins.Bottom = 5.000000000000000000
+              Size.Width = 738.000000000000000000
+              Size.Height = 33.000000000000000000
+              Size.PlatformDefault = False
+              StyledSettings = [Family, Style, FontColor]
+              CharCase = ecLowerCase
+            end
+            object Label5: TLabel
+              Align = Top
+              StyledSettings = [Family, FontColor]
+              Margins.Left = 5.000000000000000000
+              Margins.Top = 5.000000000000000000
+              Margins.Right = 5.000000000000000000
+              Margins.Bottom = 5.000000000000000000
+              Position.X = 5.000000000000000000
+              Position.Y = 70.000000000000000000
+              Size.Width = 738.000000000000000000
+              Size.Height = 17.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Size = 16.000000000000000000
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+              Text = '** Email'
+              TabOrder = 7
+            end
+            object Label7: TLabel
+              Align = Top
+              StyledSettings = [Family, FontColor]
+              Margins.Left = 5.000000000000000000
+              Margins.Top = 5.000000000000000000
+              Margins.Right = 5.000000000000000000
+              Margins.Bottom = 5.000000000000000000
+              Position.X = 5.000000000000000000
+              Position.Y = 200.000000000000000000
+              Size.Width = 738.000000000000000000
+              Size.Height = 17.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Size = 16.000000000000000000
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+              Text = '* Data di nascita'
+              TabOrder = 2
+            end
+            object FlowLayout3: TFlowLayout
+              Align = Top
+              Position.Y = 222.000000000000000000
+              Size.Width = 748.000000000000000000
+              Size.Height = 35.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 14
+              Justify = Left
+              JustifyLastLine = Left
+              FlowDirection = LeftToRight
+              HorizontalGap = 20.000000000000000000
+              object idGiorno: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Anchors = [akLeft, akTop, akBottom]
+                TabOrder = 0
+                MaxLength = 2
+                TextSettings.Font.Size = 16.000000000000000000
+                TextSettings.HorzAlign = Center
+                Position.X = 170.000000000000000000
+                Margins.Left = 170.000000000000000000
+                Size.Width = 100.000000000000000000
+                Size.Height = 33.000000000000000000
+                Size.PlatformDefault = False
+                StyledSettings = [Family, Style, FontColor]
+                CharCase = ecLowerCase
+              end
+              object idMese: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Anchors = [akLeft, akTop, akBottom]
+                TabOrder = 1
+                MaxLength = 2
+                TextSettings.Font.Size = 16.000000000000000000
+                TextSettings.HorzAlign = Center
+                Position.X = 290.000000000000000000
+                Size.Width = 100.000000000000000000
+                Size.Height = 33.000000000000000000
+                Size.PlatformDefault = False
+                StyledSettings = [Family, Style, FontColor]
+              end
+              object idAnno: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Anchors = [akLeft, akTop, akBottom]
+                TabOrder = 2
+                MaxLength = 4
+                TextSettings.Font.Size = 16.000000000000000000
+                TextSettings.HorzAlign = Center
+                Position.X = 410.000000000000000000
+                Size.Width = 158.000000000000000000
+                Size.Height = 33.000000000000000000
+                Size.PlatformDefault = False
+                StyledSettings = [Family, Style, FontColor]
+              end
+            end
+            object GroupBox1: TGroupBox
+              Align = Top
+              StyledSettings = [Family, FontColor, Other]
+              Margins.Left = 5.000000000000000000
+              Margins.Right = 5.000000000000000000
+              Margins.Bottom = 5.000000000000000000
+              Position.X = 5.000000000000000000
+              Position.Y = 257.000000000000000000
+              Size.Width = 738.000000000000000000
+              Size.Height = 57.000000000000000000
+              Size.PlatformDefault = False
+              Text = '[ Sesso ]'
+              TextSettings.Font.Size = 16.000000000000000000
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+              TabOrder = 11
+              object CheckBox1: TCheckBox
+                StyledSettings = [Family, FontColor]
+                IsChecked = True
+                Position.X = 40.000000000000000000
+                Position.Y = 17.000000000000000000
+                Size.Width = 153.000000000000000000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 37
+                Text = 'Maschio'
+                TextSettings.Font.Size = 16.000000000000000000
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+              object CheckBox2: TCheckBox
+                StyledSettings = [Family, FontColor]
+                Position.X = 472.000000000000000000
+                Position.Y = 17.000000000000000000
+                Size.Width = 217.000000000000000000
+                Size.Height = 30.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 38
+                Text = 'Femmina'
+                TextSettings.Font.Size = 16.000000000000000000
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+              end
+            end
+            object FlowLayout1: TFlowLayout
+              Align = Top
+              Position.Y = 319.000000000000000000
+              Size.Width = 748.000000000000000000
+              Size.Height = 62.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 13
+              Justify = Left
+              JustifyLastLine = Left
+              FlowDirection = LeftToRight
+              object CheckBox3: TCheckBox
+                Align = Left
+                StyledSettings = [Family, Style, FontColor]
+                IsChecked = True
+                Margins.Left = 15.000000000000000000
+                Position.X = 15.000000000000000000
+                Size.Width = 25.000000000000000000
+                Size.Height = 57.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 0
+                TextSettings.Font.Size = 16.000000000000000000
+              end
+              object DzHTMLText1: TDzHTMLText
+                Align = Right
+                Font.Size = 16.000000000000000000
+                Margins.Top = 15.000000000000000000
+                TabOrder = 1
+                Position.X = 40.000000000000000000
+                Position.Y = 15.000000000000000000
+                Size.Width = 699.000000000000000000
+                Size.Height = 42.562500000000000000
+                Size.PlatformDefault = False
+                Lines.Strings = (
+                  
+                    'Dichiaro Di Conoscere E <a:http://abbi.ddns.net/tuttigiorni_ca/T' +
+                    'ermini-e-Condizioni-di-Utilizzo.htm>Accettare I Termini E Condiz' +
+                    'ioni Di Servizio</a>, <a:https://abbi.ddns.net/tuttigiorni_ca/re' +
+                    'golamento-tuttigiorni-card.htm>Il Regolamento Tutti Giorni Card<' +
+                    '/a>, E Di Aver Preso Visione Della <a:https://abbi.ddns.net/tutt' +
+                    'igiorni_ca/privacy-policy.html>Privacy Policy</a> Del Sito')
+                AutoHeight = True
+                LineVertAlign = vaCenter
+              end
+            end
+            object FlowLayout2: TFlowLayout
+              Align = Top
+              Position.Y = 381.000000000000000000
+              Size.Width = 748.000000000000000000
+              Size.Height = 88.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 12
+              Justify = Left
+              JustifyLastLine = Left
+              FlowDirection = LeftToRight
+              object CheckBox5: TCheckBox
+                Align = Left
+                StyledSettings = [Family, Style, FontColor]
+                IsChecked = True
+                Margins.Left = 15.000000000000000000
+                Position.X = 15.000000000000000000
+                Size.Width = 25.000000000000000000
+                Size.Height = 84.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 0
+                TextSettings.Font.Size = 16.000000000000000000
+              end
+              object DzHTMLText3: TDzHTMLText
+                Align = Right
+                Font.Size = 16.000000000000000000
+                Margins.Top = 15.000000000000000000
+                TabOrder = 1
+                Position.X = 40.000000000000000000
+                Position.Y = 15.000000000000000000
+                Size.Width = 699.000000000000000000
+                Size.Height = 63.843750000000000000
+                Size.PlatformDefault = False
+                Lines.Strings = (
+                  
+                    'Acconsento Al Trattamento Dei Miei Dati Per Essere Informato, An' +
+                    'che Per Mezzo Di Forme Automatizzate Di Contatto, Su Buoni Scont' +
+                    'o, Offerte Ed Altre Iniziative Personalizzate, Adatte A Me E All' +
+                    'e Mie Preferenze Ai Sensi Del Punto C.2 E D.2 Della <a:https://a' +
+                    'bbi.ddns.net/tuttigiorni_ca/privacy-policy.html>Privacy Policy</' +
+                    'a>')
+                AutoHeight = True
+                LineVertAlign = vaCenter
+              end
+            end
+            object Rectangle4: TRectangle
+              Align = Top
+              Fill.Color = claPapayawhip
+              Position.Y = 469.000000000000000000
+              Size.Width = 748.000000000000000000
+              Size.Height = 300.000000000000000000
+              Size.PlatformDefault = False
+              object Button1: TButton
+                Position.X = 16.000000000000000000
+                Position.Y = 8.000000000000000000
+                Size.Width = 57.000000000000000000
+                Size.Height = 49.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 44
+                Text = '1'
+              end
+              object Button2: TButton
+                Position.X = 81.000000000000000000
+                Position.Y = 8.000000000000000000
+                Size.Width = 57.000000000000000000
+                Size.Height = 49.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 43
+                Text = '2'
+              end
+              object Button3: TButton
+                Position.X = 146.000000000000000000
+                Position.Y = 8.000000000000000000
+                Size.Width = 57.000000000000000000
+                Size.Height = 49.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 40
+                Text = '3'
+              end
+              object Button4: TButton
+                Position.X = 211.000000000000000000
+                Position.Y = 8.000000000000000000
+                Size.Width = 57.000000000000000000
+                Size.Height = 49.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 37
+                Text = '4'
+              end
+              object Button5: TButton
+                Position.X = 276.000000000000000000
+                Position.Y = 8.000000000000000000
+                Size.Width = 57.000000000000000000
+                Size.Height = 49.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 34
+                Text = '5'
+              end
+              object Button6: TButton
+                Position.X = 341.000000000000000000
+                Position.Y = 8.000000000000000000
+                Size.Width = 57.000000000000000000
+                Size.Height = 49.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 30
+                Text = '6'
+              end
+              object Button7: TButton
+                Position.X = 406.000000000000000000
+                Position.Y = 8.000000000000000000
+                Size.Width = 57.000000000000000000
+                Size.Height = 49.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 29
+                Text = '7'
+              end
+              object Button8: TButton
+                Position.X = 471.000000000000000000
+                Position.Y = 8.000000000000000000
+                Size.Width = 57.000000000000000000
+                Size.Height = 49.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 24
+                Text = '8'
+              end
+              object Button9: TButton
+                Position.X = 536.000000000000000000
+                Position.Y = 8.000000000000000000
+                Size.Width = 57.000000000000000000
+                Size.Height = 49.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 19
+                Text = '9'
+              end
+              object Button10: TButton
+                Position.X = 601.000000000000000000
+                Position.Y = 8.000000000000000000
+                Size.Width = 57.000000000000000000
+                Size.Height = 49.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 16
+                Text = '0'
+              end
+              object Button11: TButton
+                Position.X = 601.000000000000000000
+                Position.Y = 65.000000000000000000
+                Size.Width = 57.000000000000000000
+                Size.Height = 49.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 10
+                Text = 'P'
+              end
+              object Button12: TButton
+                Position.X = 16.000000000000000000
+                Position.Y = 65.000000000000000000
+                Size.Width = 57.000000000000000000
+                Size.Height = 49.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 42
+                Text = 'Q'
+              end
+              object Button13: TButton
+                Position.X = 81.000000000000000000
+                Position.Y = 65.000000000000000000
+                Size.Width = 57.000000000000000000
+                Size.Height = 49.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 39
+                Text = 'W'
+              end
+              object Button14: TButton
+                Position.X = 146.000000000000000000
+                Position.Y = 65.000000000000000000
+                Size.Width = 57.000000000000000000
+                Size.Height = 49.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 36
+                Text = 'E'
+              end
+              object Button15: TButton
+                Position.X = 211.000000000000000000
+                Position.Y = 65.000000000000000000
+                Size.Width = 57.000000000000000000
+                Size.Height = 49.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 33
+                Text = 'R'
+              end
+              object Button16: TButton
+                Position.X = 341.000000000000000000
+                Position.Y = 65.000000000000000000
+                Size.Width = 57.000000000000000000
+                Size.Height = 49.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 25
+                Text = 'Y'
+              end
+              object Button17: TButton
+                Position.X = 406.000000000000000000
+                Position.Y = 65.000000000000000000
+                Size.Width = 57.000000000000000000
+                Size.Height = 49.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 21
+                Text = 'U'
+              end
+              object Button18: TButton
+                Position.X = 471.000000000000000000
+                Position.Y = 65.000000000000000000
+                Size.Width = 57.000000000000000000
+                Size.Height = 49.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 17
+                Text = 'I'
+              end
+              object Button19: TButton
+                Position.X = 536.000000000000000000
+                Position.Y = 65.000000000000000000
+                Size.Width = 57.000000000000000000
+                Size.Height = 49.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 12
+                Text = 'O'
+              end
+              object Button20: TButton
+                Position.X = 276.000000000000000000
+                Position.Y = 65.000000000000000000
+                Size.Width = 57.000000000000000000
+                Size.Height = 49.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 7
+                Text = 'T'
+              end
+              object Button21: TButton
+                Position.X = 16.000000000000000000
+                Position.Y = 122.000000000000000000
+                Size.Width = 57.000000000000000000
+                Size.Height = 49.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 41
+                Text = 'A'
+              end
+              object Button22: TButton
+                Position.X = 81.000000000000000000
+                Position.Y = 122.000000000000000000
+                Size.Width = 57.000000000000000000
+                Size.Height = 49.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 38
+                Text = 'S'
+              end
+              object Button23: TButton
+                Position.X = 146.000000000000000000
+                Position.Y = 122.000000000000000000
+                Size.Width = 57.000000000000000000
+                Size.Height = 49.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 35
+                Text = 'D'
+              end
+              object Button24: TButton
+                Position.X = 211.000000000000000000
+                Position.Y = 122.000000000000000000
+                Size.Width = 57.000000000000000000
+                Size.Height = 49.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 32
+                Text = 'F'
+              end
+              object Button25: TButton
+                Position.X = 276.000000000000000000
+                Position.Y = 122.000000000000000000
+                Size.Width = 57.000000000000000000
+                Size.Height = 49.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 3
+                Text = 'G'
+              end
+              object Button26: TButton
+                Position.X = 341.000000000000000000
+                Position.Y = 122.000000000000000000
+                Size.Width = 57.000000000000000000
+                Size.Height = 49.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 22
+                Text = 'H'
+              end
+              object Button27: TButton
+                Position.X = 406.000000000000000000
+                Position.Y = 122.000000000000000000
+                Size.Width = 57.000000000000000000
+                Size.Height = 49.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 18
+                Text = 'J'
+              end
+              object Button28: TButton
+                Position.X = 471.000000000000000000
+                Position.Y = 122.000000000000000000
+                Size.Width = 57.000000000000000000
+                Size.Height = 49.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 13
+                Text = 'K'
+              end
+              object Button29: TButton
+                Position.X = 536.000000000000000000
+                Position.Y = 122.000000000000000000
+                Size.Width = 57.000000000000000000
+                Size.Height = 49.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 9
+                Text = 'L'
+              end
+              object Button30: TButton
+                Position.X = 601.000000000000000000
+                Position.Y = 122.000000000000000000
+                Size.Width = 57.000000000000000000
+                Size.Height = 49.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 6
+                Text = '+'
+              end
+              object Button31: TButton
+                Position.X = 16.000000000000000000
+                Position.Y = 179.000000000000000000
+                Size.Width = 57.000000000000000000
+                Size.Height = 49.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 31
+                Text = 'Z'
+              end
+              object Button32: TButton
+                Position.X = 81.000000000000000000
+                Position.Y = 179.000000000000000000
+                Size.Width = 57.000000000000000000
+                Size.Height = 49.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 28
+                Text = 'X'
+              end
+              object Button33: TButton
+                Position.X = 146.000000000000000000
+                Position.Y = 179.000000000000000000
+                Size.Width = 57.000000000000000000
+                Size.Height = 49.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 23
+                Text = 'C'
+              end
+              object Button34: TButton
+                Position.X = 211.000000000000000000
+                Position.Y = 179.000000000000000000
+                Size.Width = 57.000000000000000000
+                Size.Height = 49.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 20
+                Text = 'V'
+              end
+              object Button35: TButton
+                Position.X = 276.000000000000000000
+                Position.Y = 179.000000000000000000
+                Size.Width = 57.000000000000000000
+                Size.Height = 49.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 0
+                Text = 'B'
+              end
+              object Button36: TButton
+                Position.X = 341.000000000000000000
+                Position.Y = 179.000000000000000000
+                Size.Width = 57.000000000000000000
+                Size.Height = 49.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 14
+                Text = 'N'
+              end
+              object Button37: TButton
+                Position.X = 406.000000000000000000
+                Position.Y = 179.000000000000000000
+                Size.Width = 57.000000000000000000
+                Size.Height = 49.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 11
+                Text = 'M'
+              end
+              object Button38: TButton
+                Position.X = 471.000000000000000000
+                Position.Y = 179.000000000000000000
+                Size.Width = 57.000000000000000000
+                Size.Height = 49.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 8
+                Text = '.'
+              end
+              object Button39: TButton
+                Position.X = 536.000000000000000000
+                Position.Y = 179.000000000000000000
+                Size.Width = 57.000000000000000000
+                Size.Height = 49.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 4
+                Text = '_'
+              end
+              object Button40: TButton
+                Position.X = 601.000000000000000000
+                Position.Y = 179.000000000000000000
+                Size.Width = 57.000000000000000000
+                Size.Height = 49.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 2
+                Text = '-'
+              end
+              object Button41: TButton
+                Position.X = 81.000000000000000000
+                Position.Y = 236.000000000000000000
+                Size.Width = 512.000000000000000000
+                Size.Height = 49.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 27
+                Text = 'Spazio'
+              end
+              object Button42: TButton
+                Position.X = 666.000000000000000000
+                Position.Y = 179.000000000000000000
+                Size.Width = 57.000000000000000000
+                Size.Height = 108.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 26
+                Text = 'INVIO'
+              end
+              object Button43: TButton
+                Position.X = 666.000000000000000000
+                Position.Y = 8.000000000000000000
+                Size.Width = 57.000000000000000000
+                Size.Height = 49.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 15
+                Text = 'CANC'
+              end
+              object Button44: TButton
+                StyledSettings = [Family, Size]
+                Position.X = 666.000000000000000000
+                Position.Y = 63.000000000000000000
+                Size.Width = 57.000000000000000000
+                Size.Height = 49.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 1
+                Text = 'TEST'
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                TextSettings.FontColor = claCrimson
+              end
+              object Button45: TButton
+                Position.X = 666.000000000000000000
+                Position.Y = 122.000000000000000000
+                Size.Width = 57.000000000000000000
+                Size.Height = 49.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 5
+                Text = '@'
+              end
+            end
+            object RoundRect3: TRoundRect
+              Align = Top
+              Fill.Color = claBlue
+              Margins.Top = 10.000000000000000000
+              Position.Y = 779.000000000000000000
+              Size.Width = 748.000000000000000000
+              Size.Height = 105.000000000000000000
+              Size.PlatformDefault = False
+              object Label9: TLabel
+                Align = Client
+                StyledSettings = [Family]
+                Size.Width = 748.000000000000000000
+                Size.Height = 105.000000000000000000
+                Size.PlatformDefault = False
+                TextSettings.Font.Size = 26.000000000000000000
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                TextSettings.FontColor = claFloralwhite
+                TextSettings.HorzAlign = Center
+                Text = 'Registra la tua card'
+                TabOrder = 0
+              end
+            end
+          end
+        end
+      end
+    end
+  end
+end
