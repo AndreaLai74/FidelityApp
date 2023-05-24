@@ -178,6 +178,9 @@ type
     Label17: TLabel;
     idTel_R: TEdit;
     Label13: TLabel;
+    TabItem4: TTabItem;
+    Layout13: TLayout;
+    Label11: TLabel;
     procedure Button1Click(Sender: TObject);
     procedure Button43Click(Sender: TObject);
     procedure Button41Click(Sender: TObject);
@@ -1056,6 +1059,9 @@ begin
 
       NomeDellaCarta := FileName1;
       NomeDellaCarta_ToPrint := FileName;
+
+      TabControl1.TabIndex := 3;
+      Sleep(10);
 
       Timer3.Enabled := true;
 

@@ -3296,6 +3296,8 @@ object Form2: TForm2
         748s
         1073s
         748s
+        1073s
+        748s
         1073s)
       object TabItem1: TTabItem
         CustomIcon = <
@@ -4896,6 +4898,37 @@ object Form2: TForm2
               Text = '** Telefono'
               TabOrder = 4
             end
+          end
+        end
+      end
+      object TabItem4: TTabItem
+        CustomIcon = <
+          item
+          end>
+        IsSelected = False
+        Size.Width = 8.000000000000000000
+        Size.Height = 8.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = ''
+        TabOrder = 0
+        Text = 'TabItem4'
+        object Layout13: TLayout
+          Align = Client
+          Size.Width = 748.000000000000000000
+          Size.Height = 1073.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          object Label11: TLabel
+            Align = Client
+            StyledSettings = [Family, FontColor]
+            Size.Width = 748.000000000000000000
+            Size.Height = 1073.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 48.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.HorzAlign = Center
+            Text = 'Stampa in corso ....'
+            TabOrder = 0
           end
         end
       end
