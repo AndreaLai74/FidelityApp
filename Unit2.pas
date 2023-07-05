@@ -1236,7 +1236,7 @@ begin
       else
       begin
           Obj.AddPair('body', '<b>Tuttigiorni - Card!</b><br><br>Il PIN per la tua registrazione è : <b>'+codPIN+'</b> ');
-          Obj.AddPair('subject', 'Tutgiorni Card - Codice di verifica!');
+          Obj.AddPair('subject', 'Tuttigiorni Card - Codice di verifica!');
 
           Obj.AddPair('domain', '@tuttigiorni.it');
           Obj.AddPair('from', 'no-reply@tuttigiorni.it');
