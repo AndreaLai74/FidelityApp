@@ -5025,7 +5025,7 @@ object Form2: TForm2
     PrintOptions.Printer = 'Default'
     PrintOptions.PrintOnSheet = 0
     ReportOptions.CreateDate = 45065.439004537000000000
-    ReportOptions.LastChange = 45112.748121238420000000
+    ReportOptions.LastChange = 45112.759582500000000000
     ReportOptions.IsFMXReport = True
     ScriptLanguage = 'PascalScript'
     ScriptText.Strings = (
@@ -5044,7 +5044,7 @@ object Form2: TForm2
     end
     object Page1: TfrxReportPage
       PaperWidth = 54.000000000000000000
-      PaperHeight = 85.000000000000000000
+      PaperHeight = 85.800000000000000000
       PaperSize = 256
       object Picture3: TfrxPictureView
         Left = 161.000000000000000000
